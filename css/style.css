@@ -1118,6 +1118,25 @@ main {
 
 }
 
+@media (max-width: 576px) {
+  .tool-orbit-inner,
+  .tool-orbit-outer,
+  .tool-orbit-inner .tool-badge,
+  .tool-orbit-outer .tool-badge {
+    animation-duration: 60s !important;
+  }
+
+  .tool-badge {
+    backdrop-filter: none;
+    background: #111111;
+  }
+
+  .tool-orbit-inner,
+  .tool-orbit-outer {
+    will-change: transform;
+  }
+}
+
 /* ===== SECTION: About — END ===== */
 
 
